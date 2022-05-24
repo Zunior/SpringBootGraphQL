@@ -1,0 +1,13 @@
+# query getOnePizza {
+# 	findBySlug(slug: "capricciosa") {
+#     name
+#     size
+#   }
+# }
+
+query getPizzas {
+	pizzas {
+    name
+    size
+  }
+}

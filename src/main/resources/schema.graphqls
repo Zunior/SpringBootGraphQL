@@ -1,0 +1,13 @@
+#scalar DataTime
+
+type Query {
+  findBySlug(slug: String): Pizza
+  pizzas: [Pizza!]!
+}
+
+type Pizza {
+  slug: String!
+  name: String
+  size: Int
+  price: Int
+}
